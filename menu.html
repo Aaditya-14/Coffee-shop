@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our menu of artisanal coffees, teas, pastries, and special drinks.">
+    <title>Menu - The Coffee Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">The Coffee Corner</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li class="nav-item"><a href="offers.html" class="nav-link">Offers</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu" class="menu-section content-section" style="padding-top: calc(var(--nav-height) + 5rem);">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-grid">
+                    <article class="menu-item fade-in">
+                        <img src="Images\expresso.jpg" alt="Espresso">
+                        <h3>Espresso</h3>
+                        <p>A rich and aromatic shot of pure coffee.</p>
+                        <span class="price">$3.00</span>
+                        <div class="menu-actions">
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                            <button class="btn btn-secondary rate-btn">Rate</button>
+                        </div>
+                    </article>
+                    <article class="menu-item fade-in">
+                        <img src="Images/greentea.webp" alt="Green Tea">
+                        <h3>Green Tea</h3>
+                        <p>A refreshing and healthy classic.</p>
+                        <span class="price">$2.50</span>
+                        <div class="menu-actions">
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                            <button class="btn btn-secondary rate-btn">Rate</button>
+                        </div>
+                    </article>
+                    <article class="menu-item fade-in">
+                        <img src="  Images/Croissant.jpeg" alt="Croissant">
+                        <h3>Croissant</h3>
+                        <p>Buttery, flaky, and freshly baked.</p>
+                        <span class="price">$3.50</span>
+                        <div class="menu-actions">
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                            <button class="btn btn-secondary rate-btn">Rate</button>
+                        </div>
+                    </article>
+                    <article class="menu-item fade-in">
+                        <img src="Images/Iced Caramel Latte.jpg" alt="Iced Caramel Latte">
+                        <h3>Iced Caramel Latte</h3>
+                        <p>A sweet and creamy summer favorite.</p>
+                        <span class="price">$4.50</span>
+                        <div class="menu-actions">
+                            <button class="btn btn-primary buy-btn">Buy</button>
+                            <button class="btn btn-secondary rate-btn">Rate</button>
+                        </div>
+                    </article>
+                </div>
+                 <div class="text-center">
+                    <a href="#" class="btn btn-secondary">View Full Menu & Order Online</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Coffee Corner. All Rights Reserved.</p>
+            <p><a href="admin/login.html" style="color:inherit; text-decoration:underline;">Admin Login</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

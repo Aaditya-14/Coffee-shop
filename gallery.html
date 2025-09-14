@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A gallery of photos from The Coffee Corner, including our coffee, interior, and happy customers.">
+    <title>Gallery - The Coffee Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">The Coffee Corner</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="offers.html" class="nav-link">Offers</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery" class="gallery-section content-section" style="padding-top: calc(var(--nav-height) + 5rem);">
+            <div class="container">
+                <h2 class="section-title">Our Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in"><img src="\Images\gallery1.jpg"></div>
+                    <div class="gallery-item fade-in"><img src="\Images\gallery2.jpg"></div>
+                    <div class="gallery-item fade-in"><img src="\Images\gallery3.webp"></div>
+                    <div class="gallery-item fade-in"><img src="\Images\gallery4.jpg"></div>
+                    <div class="gallery-item fade-in"><img src="\Images\gallery5.jpg"></div>
+                    <div class="gallery-item fade-in"><img src="\Images\gallery6.jpg"></div>
+                    <div class="gallery-item fade-in"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1600" alt="Gallery image of coffee beans"></div>
+                    <div class="gallery-item fade-in"><img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1600" alt="Gallery image of a barista"></div>
+                    <div class="gallery-item fade-in"><img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1600" alt="Gallery image of a cup of coffee"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Coffee Corner. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

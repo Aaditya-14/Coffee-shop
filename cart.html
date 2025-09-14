@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cart Removed - The Coffee Corner</title>
+    <meta http-equiv="refresh" content="3;url=menu.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container" style="padding:6rem 2rem; text-align:center;">
+            <h1>Cart feature removed</h1>
+            <p>The cart functionality has been removed. You will be redirected to the menu in a few seconds.</p>
+            <p><a href="menu.html" class="btn btn-primary">Go to Menu Now</a></p>
+        </div>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - The Coffee Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cart-container { max-width: 1000px; margin: 3rem auto; }
+        .cart-item { display: flex; gap: 1rem; align-items: center; background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); margin-bottom: 1rem; }
+        .cart-item img { width: 100px; height: 80px; object-fit: cover; border-radius: 6px; }
+        .cart-details { flex: 1; }
+        .cart-actions { display: flex; gap: 0.5rem; align-items: center; }
+        .cart-total { text-align: right; margin-top: 1rem; font-size: 1.2rem; font-weight: 700; }
+        .empty { text-align: center; padding: 4rem 0; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">The Coffee Corner</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container cart-container">
+            <div class="cart-layout">
+                <div class="cart-main">
+                    <h2 class="section-title">
+                        <!-- inline cart SVG logo -->
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;margin-right:8px;">
+                            <path d="M7 4h-2l-1 2h2l1-2z" fill="#6F4E37" />
+                            <path d="M6 6h14l-1.2 6.4a2 2 0 0 1-1.98 1.6H9.2L8.4 18H20v2H6v-2h.6L8.2 8H6V6z" fill="#6F4E37" />
+                        </svg>
+                        Your Cart
+                    </h2>
+                    <div id="cart-list"></div>
+                </div>
+                <aside id="cart-summary" class="cart-summary" aria-label="Cart summary"></aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Coffee Corner. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="cart-fab">
+        <a href="cart.html" class="btn btn-primary">🛒</a>
+    </div>
+</body>
+</html>
